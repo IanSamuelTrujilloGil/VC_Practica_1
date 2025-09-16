@@ -16,12 +16,17 @@ En esta práctica se han trabajado los siguientes aspectos:
 
 En esta tarea se genera una imagen en escala de grises de 800x800 píxeles, dividiendo la superficie en 8 filas y 8 columnas.
 Cada celda tiene un tamaño de 100x100 píxeles. Se rellenan de blanco únicamente las celdas alternas correspondientes, mientras que las restantes permanecen negras gracias al fondo inicial, creando así la textura de un tablero de ajedrez. Finalmente, la imagen se guarda en disco y se muestra en pantalla.
+El resultado es el siguiente:
+
+<img src="chessboard.png" width="800" height="800"></img>
 
 ### TAREA 2: Crear una imagen estilo Mondrian (un ejemplo https://www3.gobiernodecanarias.org/medusa/ecoescuela/sa/2017/04/17/descubriendo-a-mondrian/ ) con las funciones de dibujo de OpenCV.
 
-En esta tarea se crea una imagen cuadrada en blanco de 800 píxel por cada lado, y mediante el uso de funciones de opencv se añadin líneas negras y rectángulos rojos, amarillo y azules para generar una imagen de estilo Mondrian. Finalmente se escribe en disco y se muestra la image
+En esta tarea se crea una imagen cuadrada en blanco de 800 píxel por cada lado, y mediante el uso de funciones de opencv se añaden líneas negras y rectángulos rojos, amarillo y azules para generar una imagen de estilo Mondrian. Finalmente se escribe en disco y se muestra la imagen. A continuación la imagen resultado de ejecutar el código:
 
-### TAREA 3: Modifica de forma libre los valores de un plano de la imagen.
+<img src="mondrian_picture.png" width="800" height="800"></img>
+
+### TAREA 3: Modificar de forma libre los valores de un plano de la imagen.
 
 En esta tarea se modifican los valores del canal rojo de la imagen capturada por la cámara:  
 
@@ -34,8 +39,8 @@ En esta tarea se modifican los valores del canal rojo de la imagen capturada por
 
 Se toma la imagen proveniente de la cámara de vídeo y se busca la posicion del píxel de mayor y menor brillo, que se calcula como la suma de las componentes RGB, considerando el máximo si las 3 están a 255 y el mínimo si las 3 están a 0.
 Posteriormente  se dibujan:
-- Una circunferencia blanca alrededor del píxel más brillante
-- Una circunferencia negra alrededor del píxel más oscuro
+- Una circunferencia blanca alrededor del píxel más oscuro
+- Una circunferencia negra alrededor del píxel más brillante
 
 #### Parte 2
 
