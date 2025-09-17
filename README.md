@@ -33,6 +33,10 @@ En esta tarea se modifican los valores del canal rojo de la imagen capturada por
 - Si el valor rojo es menor que 128 se pone a 0 (negro).  
 - Si el valor rojo es mayor o igual a 128 se pone a 255 (blanco)
 
+A continuación una imagen con el resultado tras aplicar estas modificaciones:
+
+<img src="plane_modification.png" width="900" height="300"></img>
+
 ### TAREA 4: Pintar círculos en las posiciones del píxel más claro y oscuro de la imagen ¿Si quisieras hacerlo sobre la zona 8x8 más clara/oscura?.
 
 #### Parte 1
@@ -42,16 +46,28 @@ Posteriormente  se dibujan:
 - Una circunferencia blanca alrededor del píxel más oscuro
 - Una circunferencia negra alrededor del píxel más brillante
 
+A continuación una imagen a la que se le ha aplicado el código:
+
+<img src="brigthest_and_darkest_pixel.png" width="800" height="800"></img>
+
 #### Parte 2
 
-Se toma la imagen de la cámara de vídeo y se busca la zona 8x8 más brillante y oscura. Se considera que la zona más brillante es la zona que tiene mayor número de píxeles al valor máximo de la suma en sus tres componentes RGB, y la más oscura lo contrario. Cada imagen es reescalada hasta la mitad para disminuir el número de píxeles que se tratan y que no se ralentice tanto la imagen. Finalmente se dibujan:
-- Rectángulos azules en la zona más brillante
-- Rectángulos rojos en la zona más oscura
+Se toma la imagen de la cámara de vídeo y se busca la zona 8x8 más brillante y oscura. Se considera que la zona más brillante es la zona que tiene mayor número de píxeles al valor máximo de la suma en sus tres componentes RGB, y la más oscura lo contrario. Cada imagen es reescalada hasta la mitad para disminuir el número de píxeles que se tratan y que no se ralentice tanto la imagen. Finalmente se dibuja en cada imagen:
+- Un rectángulo azul en la zona más brillante
+- Un rectángulo rojo en la zona más oscura
+
+A continuación una imagen a la que se le ha aplicado el código:
+
+<img src="brigthest_and_darkest_area.png" width="800" height="800"></img>
 
 ### TAREA 5: Llevar a cabo una propuesta propia de pop art.
 
 En esta tarea se captura la imagen de la cámara y se organiza en una cuadrícula de 3x3.
 Cada celda muestra el mismo fotograma con diferentes transformaciones de color, manteniendo la primera celda sin manipular.
+
+A continuación una imagen con el programa que genera una propuesta de pop art:
+
+<img src="free_choice_popart.png" width="800" height="800"></img>
 
 ## Requisitos de ejecución
 
